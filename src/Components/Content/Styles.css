@@ -1,0 +1,132 @@
+/* Application > Content > Recommends | Style Declaration */
+.recommends {
+   flex:     0.86;
+   padding:  40px 20px;
+   padding-bottom: 0;
+   background-color: #f9f9f9;
+}
+
+.recommends > h2 {
+   font-family:    'Chakra Petch', sans-serif;
+   margin-right:   unset;
+   margin-left:    5px;
+   margin-bottom:  20px;
+}
+
+.recommends__videos {
+   display:    flex;
+   flex-wrap:  wrap;
+}
+
+/* Application > Content > Navigation | Style Declaration */
+.navigation {
+   display:      flex;
+   padding:      10px 20px;
+   align-items:  center;
+}
+
+.navigation:hover {
+   cursor:       pointer;
+   background-color: lightgrey; 
+}
+
+.navigation:hover > .navigation__icons {color: #ff0084;}
+.navigation:hover > .navigation__title {color: #0063dc;}
+
+.navigation__icons {
+   color:        #606060;
+   font-size:    large !important;
+}
+
+.navigation__title {
+   flex:         1;
+   font-size:    1rem;
+   font-weight:  500;
+   font-family:  'Chakra Petch', sans-serif;
+   margin-right: unset;
+   margin-left:  20px;
+}
+
+.navigation.selected {background-color: lightgrey;}
+.navigation.selected > .navigation__icons {color: #ff0084;}
+.navigation.selected > .navigation__title {color: #0063dc;}
+
+/* Application > Content > Video Cards | Style Declaration */
+.video__cards {
+   width:    320px;
+   margin-bottom: 40px;
+}
+
+.video__images {
+   width:    280px;
+   height:   180px;
+}
+
+.video__info {
+   display:    flex;
+   margin-top: 10px;
+   padding-right:  20px;
+   align-items: center;
+}
+
+.video__avatar {
+   width:    40px !important;
+   height:   40px !important;
+}
+
+.vide__text {
+   margin-left:  14px;
+}
+
+.vide__text > h4 {
+   font-size:    16px;
+   margin-bottom:  6px;
+}
+
+.vide__text > p {
+   color:      grey;
+   font-size:    16px;
+}
+
+/* Application > Content > Search Results | Style Declaration */
+.search {
+   flex:     0.86;
+   padding:  20px 20px;
+   background-color: #f9f9f9;
+}
+
+.search__filter {
+   color:      #606060;
+   display:      flex;
+   font-size:    small !important;
+   align-items:  center;
+}
+
+.search__filter > h4 {
+   margin-left:    10px;
+   text-transform: uppercase;
+}
+
+/* Application > Content > Channel Information | Style Declaration */
+.channels {
+   width:        80%;
+   display:      flex;
+   align-items:  center;
+
+}
+
+.channels__text {
+   display:      flex;
+   flex-direction:   column;
+}
+
+.channels__text > h4 {
+   display:      flex;
+   align-items:  center;
+   justify-content:  space-between;   
+}
+
+.channels__text > p {
+   color:      #606060;
+   font-size:    small !important;
+}
